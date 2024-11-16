@@ -1,0 +1,12 @@
+class Carta:
+    def __init__(self, destinatario):
+        self.destinatario = destinatario
+        self.mensaje = "Me gustas Walter, besame🤎"
+
+    def enviar(self):
+        print(f"Hola, {self.destinatario} 🤎")
+        print(self.mensaje)
+
+# Crear y enviar la carta
+mi_carta = Carta("Me gustas Walter, besame🤎")
+mi_carta.enviar(Walter)
